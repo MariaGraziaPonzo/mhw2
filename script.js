@@ -1,13 +1,4 @@
 /* TODO: inserite il codice JavaScript necessario a completare il MHW! */
-
-const boxes= document.querySelectorAll('.choice-grid div');
-//oggetto
-const risposteMap=new Map();
-
-for (const box of boxes){
-    box.addEventListener('click', selezione);
-}
-
 function selezione(event){
     const container = event.currentTarget;
     const Click = container.querySelector('.checkbox');
@@ -122,4 +113,14 @@ for (let j=0; j<Array_aaa.length;){
 }
 
 }
+
+//dichiarazione variabili
+const boxes= document.querySelectorAll('.choice-grid div');
+//oggetto
+const risposteMap=new Map();
+
+for (const box of boxes){
+    box.addEventListener('click', selezione);
+}
+
 
