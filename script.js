@@ -84,6 +84,7 @@ function ricomincia(){
     risposteMap.clear();
     //console.log('size: ' + risposteMap.size);    
     const boxes= document.querySelectorAll('.choice-grid div');
+    const article= document.querySelector("article");
 
     for (const box of boxes){     
         box.classList.remove('noChoice');
