@@ -86,7 +86,10 @@ function ricomincia(){
         
     }
     article.removeChild(article.lastElementChild);
-        
+     window.scroll({
+        top: 0,
+        behavior: "smooth"
+    })       
 }
 
 function personalita(){
